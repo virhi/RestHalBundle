@@ -1,5 +1,5 @@
 {
-    "name": "alterway/rest-hal-bundle",
+    "name": "virhi/resthalbundle",
     "description": "manage HAL Rest API with Symfony2 http://stateless.co/hal_specification.html",
     "type": "symfony-bundle",
     "license": "MIT",
@@ -30,8 +30,8 @@
     },
     "require": {
         "php": "~5.3",
-        "symfony/symfony": "~2.5",
-        "sensio/framework-extra-bundle": "~3.0",
+        "symfony/symfony": "2.5.*",
+        "sensio/framework-extra-bundle": "3.0.*",
         "nocarrier/hal": "~0.9.4"
     },
     "require-dev": {
